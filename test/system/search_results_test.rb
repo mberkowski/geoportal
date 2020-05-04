@@ -23,7 +23,7 @@ class SearchResultsPageTest < ApplicationSystemTestCase
 
   def test_search
     visit '/?q=water'
-    assert page.has_content?("Search Results")
+    assert page.has_content?("Zearch Results")
   end
 
   def test_map_clustering
