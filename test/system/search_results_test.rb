@@ -24,6 +24,7 @@ class SearchResultsPageTest < ApplicationSystemTestCase
   def test_search
     visit '/?q=water'
     assert page.has_content?("Search Results")
+
   end
 
   def test_map_clustering
